@@ -1,0 +1,1 @@
+m_0.5 nghĩa là m = 0.5, chọn margin = 0.5 cho mô hình này.

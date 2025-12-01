@@ -1,0 +1,1 @@
+m_0.3 nghĩa là chọn margin m = 0.3 cho model này.

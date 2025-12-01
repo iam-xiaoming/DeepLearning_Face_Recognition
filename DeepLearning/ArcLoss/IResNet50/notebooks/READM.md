@@ -1,0 +1,1 @@
+IResnet50 được chia làm 2 lần train, p1 là lần train thứ nhất, p2 là lần train tiếp tục, vì thời gian train quá lâu nên phải chia làm 2 lần. Lần 2 load checkpoint của lần 1 vào train tiếp.

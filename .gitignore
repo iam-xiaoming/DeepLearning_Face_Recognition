@@ -1,0 +1,86 @@
+# ============================================================
+# PYTHON
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ============================================================
+# DJANGO
+# ============================================================
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Django local settings
+local_settings.py
+settings_local.py
+
+# Migrations cache
+**/migrations/__pycache__/
+**/migrations/*.pyc
+
+
+# ============================================================
+# GIT LFS / LARGE FILES
+# ============================================================
+# Bỏ qua folder chứa model
+models/
+weights/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+
+
+# ============================================================
+# IDE / EDITOR
+# ============================================================
+# VSCode
+.vscode/
+.settings/
+
+# PyCharm
+.idea/
+
+# ============================================================
+# NODE / FRONTEND (nếu có)
+# ============================================================
+node_modules/
+dist/
+build/
+*.map
+
+
+# ============================================================
+# OTHER TEMP FILES
+# ============================================================
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*.zip
+*.tar.gz
+*.rar
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db

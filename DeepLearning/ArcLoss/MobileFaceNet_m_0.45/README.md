@@ -1,0 +1,1 @@
+m_0.45 nghĩa là m = 0.45, chọn margin = 0.45 cho mô hình này.
