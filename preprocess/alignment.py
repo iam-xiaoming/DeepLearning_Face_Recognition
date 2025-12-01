@@ -1,3 +1,10 @@
+import numpy as np
+import math
+from PIL import Image
+
+def euclidean(a, b):
+    return np.linalg.norm(a - b)
+
 def alignment_procedure(img, left_eye, right_eye):
     #this function aligns given face in img based on left and right eye coordinates
     
@@ -17,9 +24,10 @@ def alignment_procedure(img, left_eye, right_eye):
     #-----------------------
     #find length of triangle edges
     
-    a = distance.findEuclideanDistance(np.array(left_eye), np.array(point_3rd))
-    b = distance.findEuclideanDistance(np.array(right_eye), np.array(point_3rd))
-    c = distance.findEuclideanDistance(np.array(right_eye), np.array(left_eye))
+    a = euclidean(np.array(left_eye), np.array(point_3rd))
+    b = euclidean(np.array(right_eye), np.array(point_3rd))
+    c = euclidean(np.array(right_eye), np.array(left_eye))
+
     
     #-----------------------
     
